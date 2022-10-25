@@ -35,16 +35,16 @@ body p{
     background: hsl(158, 18%, 24%);
 }
 .img{
-    min-height:  470px;
-    max-width: 370px;
+    min-height:  350px;
+    max-width: 300px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px ;
     
     
 }
 .mobile-img{
-    max-width: 350px;
-    max-height: 250px;
+    max-width: 330px;
+    max-height: 280px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: none;
@@ -55,10 +55,10 @@ body p{
     display: flex;
     flex-direction: column;
     
-    min-height: 420px;
+    min-height: 320px;
     max-width: 300px;
     background: white;
-    padding: 0px 35px 20px 35px;
+    padding: 0px 25px 10px 25px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     
@@ -67,6 +67,7 @@ body p{
 
 }
 .column-container h1{
+    font-family: 'Fraunces',sans-serif;
     color: hsl(212, 21%, 14%);
 }
 .column-container h2{
