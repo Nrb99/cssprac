@@ -1,0 +1,121 @@
+body{
+    
+    width: 100%;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+   
+    justify-content: center;
+    align-items: center;    
+    background: hsl(30, 38%, 92%);
+    font-family: 'Montserrat',sans-serif;
+}
+body p{
+    font-size: 14px;
+    color:hsl(228, 12%, 48%)
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container button{
+    background: hsl(158, 36%, 37%);
+    color: white;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.container button:hover{
+    background: hsl(158, 18%, 24%);
+}
+.img{
+    min-height:  470px;
+    max-width: 370px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px ;
+    
+    
+}
+.mobile-img{
+    max-width: 350px;
+    max-height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: none;
+
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 420px;
+    max-width: 300px;
+    background: white;
+    padding: 0px 35px 20px 35px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+    
+
+}
+.column-container h1{
+    color: hsl(212, 21%, 14%);
+}
+.column-container h2{
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;  
+}
+.new-price{
+    font-size: 3rem;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+}
+.old-price{
+    text-decoration: line-through;
+    font-family: "Montserrat",sans-serif;
+    padding-right: 20px;
+    
+    
+}
+.button-elements{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width:700px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img{
+        display: none;
+    }
+    .mobile-img{
+        display: flex;
+    }
+    .column-container{
+        max-width: 280px;
+        min-height: 360px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 0px; 
+        border-bottom-left-radius:15px;
+    }
+}
